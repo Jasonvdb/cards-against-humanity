@@ -1,5 +1,5 @@
 {
-  "name": "full-nodejs-boilerplate-setup",
+  "name": "cards-against-humanity",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -62,6 +62,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jasonvdb/full-nodejs-boilerplate-setup.git"
+    "url": "https://github.com/Jasonvdb/cards-against-humanity"
   }
 }

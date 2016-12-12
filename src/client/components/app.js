@@ -8,7 +8,20 @@ class AppContainer extends Component {
 	}
 
 	render() {
-		return <h1>Hello world</h1>;
+		const {main, sidebar} = this.props;
+
+		return (
+			<div className={`c-application`}>
+				<div className="inner">
+						<div className="sidebar">
+							{sidebar}
+						</div>
+						<div className="main">
+							{main}
+						</div>
+				</div>
+			</div>
+		);
 	}
 }
 
