@@ -1,0 +1,11 @@
+$fa-font-path: "~font-awesome/fonts";
+@import "~font-awesome/scss/font-awesome";
+
+body {
+  background: #eee;
+
+  h1 {
+    color: #666666;
+		font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
+  }
+}
