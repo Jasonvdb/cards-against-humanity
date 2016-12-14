@@ -22,6 +22,30 @@ $card-scale-factor: .8;
 $color-raised: #f5f5f5;
 $header-font-size: 14px;
 
+// $color-background: #FBE9E7;
+//
+// $color-primary: #FF5722;
+// $color-primary-text: #fff;
+//
+// $color-bad: #FF9800;
+// $color-bad-text: #fff;
+//
+// $color-good: #8BC34A;
+// $color-good-text: #fff;
+//
+// $color-neutral: #FF8A65;
+// $color-neutral-text: #000;
+//
+// $color-text: #F4511E;
+// $color-section-border: #BF360C;
+//
+// $width-card: 160px;
+// $height-card: 170px;
+// $card-scale-factor: .8;
+//
+// $color-raised: #FFCCBC;
+// $header-font-size: 14px;
+
 @mixin user-select-none {
 	-webkit-user-select: none;
 	-moz-user-select: none;
