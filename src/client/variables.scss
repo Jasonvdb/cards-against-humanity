@@ -22,29 +22,63 @@ $card-scale-factor: .8;
 $color-raised: #f5f5f5;
 $header-font-size: 14px;
 
-// $color-background: #FBE9E7;
-//
-// $color-primary: #FF5722;
-// $color-primary-text: #fff;
-//
-// $color-bad: #FF9800;
-// $color-bad-text: #fff;
-//
-// $color-good: #8BC34A;
-// $color-good-text: #fff;
-//
-// $color-neutral: #FF8A65;
-// $color-neutral-text: #000;
-//
-// $color-text: #F4511E;
-// $color-section-border: #BF360C;
-//
-// $width-card: 160px;
-// $height-card: 170px;
-// $card-scale-factor: .8;
-//
-// $color-raised: #FFCCBC;
-// $header-font-size: 14px;
+$color-card-hover: #fff;
+
+//My red theme -----
+$color-background: #FBE9E7;
+
+$color-primary: #FF5722;
+$color-primary-text: #fff;
+
+$color-bad: #FF9800;
+$color-bad-text: #fff;
+
+$color-good: #8BC34A;
+$color-good-text: #fff;
+
+$color-neutral: #FF8A65;
+$color-neutral-text: #000;
+
+$color-text: #F4511E;
+$color-section-border: #FFCCBC;
+
+$width-card: 160px;
+$height-card: 170px;
+$card-scale-factor: .8;
+
+$color-raised: #FFCCBC;
+$header-font-size: 14px;
+
+$color-card-hover: #fff;
+
+
+//My Blue color
+$color-background: #E0F7FA;
+
+$color-primary: #00BCD4;
+$color-primary-text: #fff;
+
+$color-bad: #FFB300;
+$color-bad-text: #fff;
+
+$color-good: #4CAF50;
+$color-good-text: #fff;
+
+$color-neutral: #616161;
+$color-neutral-text: #000;
+
+$color-text: #006064;
+$color-section-border: #80DEEA;
+
+$width-card: 160px;
+$height-card: 170px;
+$card-scale-factor: .8;
+
+$color-raised: #fff;
+$header-font-size: 14px;
+
+$color-card-hover: #80DEEA;
+
 
 @mixin user-select-none {
 	-webkit-user-select: none;
@@ -54,8 +88,8 @@ $header-font-size: 14px;
 }
 
 @mixin section {
-	border: 2px solid $color-section-border;
-	border-radius: 3px;
+	border: 1px solid $color-section-border;
+	border-radius: 2px;
 
 	> h1 {
 		font-weight: normal;
